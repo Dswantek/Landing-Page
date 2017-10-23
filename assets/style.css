@@ -1,0 +1,174 @@
+/* Main body styling */
+body, html {
+    height: 100%;
+}
+
+/* Background */
+.parallax {
+    background-image: url(http://images.unsplash.com/photo-1423655156442-ccc11daa4e99?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=9310420d57a4fc8c10692be4eb284a1d);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.font-main{
+    font-family: 'Philosopher', sans-serif;
+    color: black;
+    font: bold;
+}
+
+/* Navbar styling */
+.navbar-custom{
+    background-color: transparent;
+    color: black;
+    width: 100%;
+    font-size:20px;
+}
+
+.navbar a{
+    color: black;
+}
+
+.navbar-fixed-top{
+    position: fixed;
+}
+
+.navbar-nav{
+    float: right;
+}
+
+.navbar-toggle{
+    background-color:black;
+    color: white;
+    border: 1px solid white;
+}
+
+.toggle-color{
+    background: rgba(0, 0, 0, .5);
+}
+
+
+/* Title section style */
+
+.title{
+    padding: 100px;
+    padding-bottom: 130px;
+    background: rgba(167, 125, 79, .50);
+    margin-top: 20%;
+    border-radius: 50%;
+}
+
+.icon a{
+    color: black;
+}
+
+/* Basic styling for sections */
+.title-content{
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.content-background{
+    padding: 100px;
+    background: rgba(167, 125, 79, .50);
+    margin-top: 25%;
+    border-radius: 15px;
+}
+
+.heading-margin{
+    margin: 20px;
+}
+
+.profile-image{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+/* Bio styling */
+.section-bio{
+    padding: 100px;
+    background: rgba(167, 125, 79, .50);
+    margin-top: 25%;
+}
+
+.bio-content{
+    padding: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Skills styling */
+.section-skills{
+    padding: 50px;
+}
+
+/* Portfolio styling */
+.section-portfolio{
+    padding: 50px;
+}
+
+.project-card{
+    border: 2px black;
+    margin-bottom: 20px;
+    overflow: hidden;
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+
+.project-details{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    padding: 0 15px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.project-title{
+    height: auto;
+    bottom: 100%;
+    padding: 12px 6px;
+}
+
+.overlay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card:hover .overlay{
+    opacity: 1;
+}
+
+/* Resume styling */
+.section-resume{
+    padding: 50px;
+    margin-bottom: 25%;
+}
+
+.footer{
+    padding: 20px;
+}
+
+.footer a{
+    color: black;
+}
