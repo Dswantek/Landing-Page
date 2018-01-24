@@ -55,7 +55,7 @@ body, html {
 .title{
     padding: 100px;
     padding-bottom: 130px;
-    background: rgba(167, 125, 79, .50);
+    background: rgba(167, 125, 79, .75);
     margin-top: 20%;
     border-radius: 50%;
 }
@@ -74,7 +74,7 @@ body, html {
 
 .content-background{
     padding: 100px;
-    background: rgba(167, 125, 79, .50);
+    background: rgba(167, 125, 79, .75);
     margin-top: 25%;
     border-radius: 15px;
 }
@@ -87,13 +87,13 @@ body, html {
     height: 150px;
     width: 150px;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 75px;
 }
 
 /* Bio styling */
 .section-bio{
     padding: 100px;
-    background: rgba(167, 125, 79, .50);
+    background: rgba(167, 125, 79, .75);
     margin-top: 25%;
 }
 
