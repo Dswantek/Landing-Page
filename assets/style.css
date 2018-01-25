@@ -56,7 +56,7 @@ body, html {
     padding: 100px;
     padding-bottom: 130px;
     background: rgba(167, 125, 79, .75);
-    margin-top: 20%;
+    margin-top: 10%;
     border-radius: 50%;
 }
 
@@ -171,4 +171,8 @@ body, html {
 
 .footer a{
     color: black;
+}
+
+#contact-info {
+    color: darkslategrey;
 }
